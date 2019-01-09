@@ -12,9 +12,9 @@ public class Game {
 		System.out.println("===========");
 
 		Player player = new Player(playerName);
-		player.addSpell(new Spell("Blast"));
-		player.addSpell(new Spell("Freeze"));
-		player.addSpell(new Spell("Lightning"));
+		player.addSpell(new Fire());
+		player.addSpell(new Blizzard());
+		player.addSpell(new Thunder());
 
 		Enemy enemy = new Enemy("Crow", 100);
 
@@ -29,7 +29,7 @@ public class Game {
 			in.nextLine();
 			Spell usedSpell = player.getSpells().get(input - 1);
 
-			usedSpell.attack(enemy); // perform action
+			usedSpell.cast(enemy); // perform action
 
 			// check for end of battle
 			if (enemy.getHealth() <= 0) {
