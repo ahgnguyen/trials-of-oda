@@ -1,38 +1,19 @@
-import java.util.Arrays;
 import java.util.List;
 
-public class Enemy {
-	private String name;
-	private int maxHealth;
-	private int health;
-	private List<String> wordList;
-
-
-	public Enemy(String name, int maxHealth) {
-		this.name = name;
-		this.maxHealth = maxHealth;
-		health = maxHealth;
-		wordList = Arrays.asList("fly", "black", "murder", "bird", "wing");
-	}
+public abstract class Enemy {
 
 	public void printBattleStatus() {
-		System.out.println("Enemy: " + name);
-		System.out.println("HP: " + health + "/" + maxHealth);
+		System.out.println("Enemy: " + getName());
+		System.out.println("HP: " + getHealth() + "/" + getMaxHealth());
 	}
 
-	public String getName() {
-		return name;
-	}
+	public abstract String getName();
 
-	public int getHealth() {
-		return health;
-	}
+	public abstract int getHealth();
 
-	public void setHealth(int health) {
-		this.health = health;
-	}
+	public abstract int getMaxHealth();
 
-	public List<String> getWordList() {
-		return wordList;
-	}
+	public abstract void setHealth(int health);
+
+	public abstract List<String> getWordList();
 }

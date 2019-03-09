@@ -16,8 +16,17 @@ public class Game {
 		player.addSpell(new Blizzard());
 		player.addSpell(new Thunder());
 
-		Enemy enemy = new Enemy("Crow", 100);
+		Enemy rat = new Rat();
+		Enemy ox = new Ox();
+		Enemy tiger = new Tiger();
 
+		battle(player, rat);
+		battle(player, ox);
+		battle(player, tiger);
+	}
+
+	private static void battle(Player player, Enemy enemy) {
+		Scanner in = new Scanner(System.in);
 		boolean inBattle = true;
 		while (inBattle) {
 
