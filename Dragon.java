@@ -12,7 +12,7 @@ public class Dragon extends Enemy {
 		this.name = "Odiak the Dragon";
 		this.health = 400;
 		this.maxHealth = health;
-		wordList = Arrays.asList("mythical", "scales", "fire", "drake", "beast");
+		this.wordList = Arrays.asList("mythical", "scales", "fire", "drake", "beast");
 	}
 
 	public String getName() {

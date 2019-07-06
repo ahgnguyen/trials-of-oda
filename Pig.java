@@ -12,7 +12,7 @@ public class Pig extends Enemy {
 		this.name = "Arkansas the Pig";
 		this.health = 250;
 		this.maxHealth = health;
-		wordList = Arrays.asList("pork", "oink", "pink", "boar", "guinea", "swine", "razorback");
+		this.wordList = Arrays.asList("pork", "oink", "pink", "boar", "guinea", "swine", "razorback");
 	}
 
 	public String getName() {

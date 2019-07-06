@@ -12,7 +12,7 @@ public class Monkey extends Enemy {
 		this.name = "Meape the Monkey";
 		this.health = 200;
 		this.maxHealth = health;
-		wordList = Arrays.asList("banana", "baboon", "primate", "leap", "forest");
+		this.wordList = Arrays.asList("banana", "baboon", "primate", "leap", "forest");
 	}
 
 	public String getName() {

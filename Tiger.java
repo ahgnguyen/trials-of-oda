@@ -12,7 +12,7 @@ public class Tiger extends Enemy {
 		this.name = "Khere Shan the Tiger";
 		this.health = 300;
 		this.maxHealth = health;
-		wordList = Arrays.asList("claws", "stripes", "orange", "hunt", "nimble");
+		this.wordList = Arrays.asList("claws", "stripes", "orange", "hunt", "nimble");
 	}
 
 	public String getName() {

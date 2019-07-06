@@ -12,7 +12,7 @@ public class Rooster extends Enemy {
 		this.name = "Carolina the Rooster";
 		this.health = 250;
 		this.maxHealth = health;
-		wordList = Arrays.asList("chicken", "crow", "egg", "farm", "bird", "hen");
+		this.wordList = Arrays.asList("chicken", "crow", "egg", "farm", "bird", "hen");
 	}
 
 	public String getName() {

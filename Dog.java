@@ -12,7 +12,7 @@ public class Dog extends Enemy {
 		this.name = "Washington the Dog";
 		this.health = 250;
 		this.maxHealth = health;
-		wordList = Arrays.asList("bark", "corgi", "husky", "bone", "fetch");
+		this.wordList = Arrays.asList("bark", "corgi", "husky", "bone", "fetch");
 	}
 
 	public String getName() {

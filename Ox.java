@@ -12,7 +12,7 @@ public class Ox extends Enemy {
 		this.name = "Ferdinand the Ox";
 		this.health = 500;
 		this.maxHealth = health;
-		wordList = Arrays.asList("large", "bull", "horns", "strong", "cattle");
+		this.wordList = Arrays.asList("large", "bull", "horns", "strong", "cattle");
 	}
 
 	public String getName() {

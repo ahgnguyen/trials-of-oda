@@ -12,7 +12,7 @@ public class Rabbit extends Enemy {
 		this.name = "Torrac the Rabbit";
 		this.health = 150;
 		this.maxHealth = health;
-		wordList = Arrays.asList("jump", "carrot", "hare", "fluffy", "bunny");
+		this.wordList = Arrays.asList("jump", "carrot", "hare", "fluffy", "bunny");
 	}
 
 	public String getName() {

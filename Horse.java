@@ -12,7 +12,7 @@ public class Horse extends Enemy {
 		this.name = "Idash the Horse";
 		this.health = 250;
 		this.maxHealth = health;
-		wordList = Arrays.asList("gallop", "stampede", "pony", "bronco", "ride");
+		this.wordList = Arrays.asList("gallop", "stampede", "pony", "bronco", "ride");
 	}
 
 	public String getName() {

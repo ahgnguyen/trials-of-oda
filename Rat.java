@@ -12,7 +12,7 @@ public class Rat extends Enemy {
 		this.name = "Atouille the Rat";
 		this.health = 100;
 		this.maxHealth = health;
-		wordList = Arrays.asList("rodent", "tail", "fur", "lab", "agile", "quick");
+		this.wordList = Arrays.asList("rodent", "tail", "fur", "lab", "agile", "quick");
 	}
 
 	public String getName() {

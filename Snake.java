@@ -12,7 +12,7 @@ public class Snake extends Enemy {
 		this.name = "Ibeh the Snake";
 		this.health = 200;
 		this.maxHealth = health;
-		wordList = Arrays.asList("slither", "hiss", "", "", "");
+		this.wordList = Arrays.asList("slither", "hiss", "", "", "");
 	}
 
 	public String getName() {
