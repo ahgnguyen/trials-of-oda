@@ -9,7 +9,7 @@ public class Rat extends Enemy {
 	private List<String> wordList;
 
 	public Rat() {
-		this.name = "Rat";
+		this.name = "Atouille the Rat";
 		this.health = 100;
 		this.maxHealth = health;
 		wordList = Arrays.asList("rodent", "tail", "fur", "lab", "agile", "quick");

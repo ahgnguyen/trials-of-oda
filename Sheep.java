@@ -1,18 +1,18 @@
 import java.util.Arrays;
 import java.util.List;
 
-public class Tiger extends Enemy {
+public class Sheep extends Enemy {
 
 	private String name;
 	private int maxHealth;
 	private int health;
 	private List<String> wordList;
 
-	public Tiger() {
-		this.name = "Khere Shan the Tiger";
-		this.health = 300;
+	public Sheep() {
+		this.name = "Haros the Sheep";
+		this.health = 150;
 		this.maxHealth = health;
-		wordList = Arrays.asList("claws", "stripes", "orange", "hunt", "nimble");
+		wordList = Arrays.asList("shear", "wool", "shepeard", "black", "lamb");
 	}
 
 	public String getName() {

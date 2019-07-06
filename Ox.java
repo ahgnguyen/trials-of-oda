@@ -9,7 +9,7 @@ public class Ox extends Enemy {
 	private List<String> wordList;
 
 	public Ox() {
-		this.name = "Ox";
+		this.name = "Ferdinand the Ox";
 		this.health = 500;
 		this.maxHealth = health;
 		wordList = Arrays.asList("large", "bull", "horns", "strong", "cattle");
